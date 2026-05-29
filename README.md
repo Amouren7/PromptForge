@@ -114,6 +114,25 @@ pnpm dev
 
 启动后终端会显示访问地址，通常是 `http://localhost:5173`。如果没有自动打开浏览器，手动复制地址访问即可。
 
+如需指定端口：
+
+```bash
+pnpm dev -- --port 4000
+pnpm dev --port 4000        # 简写
+```
+
+如需固定端口（在 `vite.config.ts` 中设置）：
+
+```ts
+export default defineConfig({
+  server: {
+    port: 4000,
+    strictPort: true, // 端口被占用时直接报错，不自动换
+  },
+  // ...
+})
+```
+
 ### 4. 选择模型
 
 启动后在页面顶部左侧下拉框选择 LLM 提供商（如 OpenAI、Gemini、Anthropic 等），右侧下拉框选择具体模型（如 gpt-4o、claude-sonnet-4 等）。
