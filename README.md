@@ -110,6 +110,11 @@ pnpm preview
 | Gemini | gemini | gemini-2.5-flash, gemini-2.0-flash |
 | Anthropic | anthropic | claude-sonnet-4, claude-haiku-3.5 |
 
+## 演示效果：
+<img width="1919" height="979" alt="111fe14e5d2b3a2be53c7f56e7708071" src="https://github.com/user-attachments/assets/31478334-1e3a-4ae7-84ac-daf3d35a2062" />
+<img width="1919" height="946" alt="b4863ab2e762f0ecf6fa252ba2ad9a91" src="https://github.com/user-attachments/assets/9f15da31-eb17-4d32-b555-303cb433fe6f" />
+<img width="1909" height="951" alt="0b6d7f58d2f0d4c3b9ab57c4b7f79727" src="https://github.com/user-attachments/assets/35573e9d-b509-4bbf-9b3b-45df8531bc4f" />
+
 ## License
 
 AGPL-3.0
