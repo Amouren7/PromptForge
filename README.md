@@ -1,3 +1,12 @@
+> **轻量 AI 提示词优化器** —— 文本提示词 + 文生图提示词，多模型适配，流式输出，**纯前端、数据只存本地**。
+
+**为什么重写**：原项目 `linshenkx/prompt-optimizer` 功能完整但体积大（monorepo + Chrome 扩展 + Electron + MCP + 多语言）。
+本项目聚焦核心优化能力，去掉复杂依赖，做到开箱即用。
+
+**技术栈**：`TypeScript` · 动态加载 LLM 适配器（OpenAI 兼容接口）· 流式输出
+
+---
+
 # PromptForge
 
 AI prompt optimizer — 文本与文生图提示词优化，多模型支持，轻量纯前端。
